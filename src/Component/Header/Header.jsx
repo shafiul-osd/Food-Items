@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className="flex justify-between">
       <div>
-        <h2 className="text-4xl font-bold">Recipe Calories</h2>
+        <h2 className="text-2xl font-bold">Recipe Calories</h2>
       </div>
       <div className="flex items-center list-none gap-6">
         <li>
