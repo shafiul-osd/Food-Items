@@ -1,9 +1,12 @@
 import "./App.css";
+import Header from "./Component/Header/Header";
 
 function App() {
   return (
     <>
-      <h1>Vite + React</h1>
+      <div className="mx-auto container p-2">
+        <Header></Header>
+      </div>
     </>
   );
 }
