@@ -24,7 +24,7 @@ const Banner = () => {
             well world-class Programmer.
           </p>
           <div className="flex gap-4 items-center justify-center mt-6">
-            <button className="bg-purple-600 p-2 rounded-2xl">
+            <button className="bg-purple-600 p-2 rounded-2xl text-black">
               Explore Now
             </button>
             <button className="border border-white p-2 rounded-2xl">

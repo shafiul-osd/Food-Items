@@ -1,0 +1,92 @@
+[
+  {
+    "recipe_image": "https://i.ibb.co.com/PMRdWWc/chicken-curry-bowl-with-lemongrass-kaffir-lime-leaves-tomatoes-lemon-garlic.jpg",
+    "recipe_id": "1",
+    "recipe_name": "Chicken Teriyaki",
+    "short_description": "A savory and sweet Japanese chicken dish served with rice.",
+    "ingredients": [
+      "500 g chicken breast",
+      "100 ml soy sauce",
+      "50 g sugar",
+      "2 cloves garlic",
+      "1 tbsp sesame seeds"
+    ],
+    "preparing_time": "30 min",
+    "calories": "320 calories"
+  },
+  {
+    "recipe_image": "https://i.ibb.co.com/VgWdP0Y/fettuccine-with-chicken-parmesan-tomato-side-view.jpg",
+    "recipe_id": "2",
+    "recipe_name": "Spaghetti Carbonara",
+    "short_description": "A creamy Italian pasta dish made with eggs and pancetta.",
+    "ingredients": [
+      "400 g spaghetti",
+      "200 g pancetta",
+      "3 eggs",
+      "100 g parmesan cheese",
+      "2 tbsp olive oil"
+    ],
+    "preparing_time": "25 min",
+    "calories": "420 calories"
+  },
+  {
+    "recipe_image": "https://i.ibb.co.com/CvFHLh3/fried-potato-sautee-with-herbs-bell-peppers-garnished-with-lemon.jpg",
+    "recipe_id": "3",
+    "recipe_name": "Vegetable Stir Fry",
+    "short_description": "A healthy and colorful mix of vegetables stir-fried in soy sauce.",
+    "ingredients": [
+      "200 g broccoli",
+      "150 g bell peppers",
+      "100 g carrots",
+      "50 g mushrooms",
+      "2 tbsp soy sauce"
+    ],
+    "preparing_time": "20 min",
+    "calories": "150 calories"
+  },
+  {
+    "recipe_image": "https://i.ibb.co.com/g608C0L/delicious-traditional-tacos-arrangement.jpg",
+    "recipe_id": "4",
+    "recipe_name": "Beef Tacos",
+    "short_description": "Delicious Mexican-style tacos filled with spiced beef and toppings.",
+    "ingredients": [
+      "300 g ground beef",
+      "6 taco shells",
+      "100 g cheddar cheese",
+      "50 g lettuce",
+      "100 g salsa"
+    ],
+    "preparing_time": "25 min",
+    "calories": "290 calories"
+  },
+  {
+    "recipe_image": "https://i.ibb.co.com/KGt3WRT/flat-lay-delicious-pizza-concept-wooden-table.jpg",
+    "recipe_id": "5",
+    "recipe_name": "Margherita Pizza",
+    "short_description": "Classic Italian pizza topped with fresh basil and mozzarella.",
+    "ingredients": [
+      "1 pizza dough",
+      "200 g mozzarella cheese",
+      "150 g tomato sauce",
+      "10 g fresh basil leaves",
+      "2 tbsp olive oil"
+    ],
+    "preparing_time": "15 min",
+    "calories": "310 calories"
+  },
+  {
+    "recipe_image": "https://i.ibb.co.com/WgpLV45/pre-prepared-food-showcasing-ready-eat-delicious-meals-go.jpg",
+    "recipe_id": "6",
+    "recipe_name": "Paneer Butter Masala",
+    "short_description": "A rich and creamy Indian curry with paneer cubes.",
+    "ingredients": [
+      "250 g paneer",
+      "100 ml cream",
+      "200 g tomato puree",
+      "1 tbsp butter",
+      "2 tsp garam masala"
+    ],
+    "preparing_time": "35 min",
+    "calories": "380 calories"
+  }
+]
