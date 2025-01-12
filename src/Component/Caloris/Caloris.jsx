@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Cookings from "../Cookings/Cookings";
 
-const Caloris = () => {
+const Caloris = ({ handleSlectCook }) => {
   const [caloris, setCaloris] = useState([]);
   console.log(caloris);
 
@@ -14,7 +14,11 @@ const Caloris = () => {
   return (
     <div className="grid grid-cols-2 gap-4 ">
       {caloris.map((cook) => (
-        <Cookings cook={cook} key={caloris.id}></Cookings>
+        <Cookings
+          cook={cook}
+          key={caloris.id}
+          handleSlectCook={handleSlectCook}
+        ></Cookings>
       ))}
     </div>
   );

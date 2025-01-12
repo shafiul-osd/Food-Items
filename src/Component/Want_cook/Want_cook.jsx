@@ -1,13 +1,13 @@
-const Want_cook = () => {
+import Rescook_items from "../Rescook_items/Rescook_items";
+
+const Want_cook = ({ rescook }) => {
   return (
-    <div className="border border-purple-800 px-4">
-      <h2 className="text-center">want to cook</h2>
-      <div className="flex justify-between ">
-        <p>Name:</p>
-        <p>Time</p>
-        <p>Caloris</p>
-      </div>
-      <button>prepraing</button>
+    <div className="border border-slate-400 px-4 items-center rounded-lg">
+      <h2 className="text-center">want to cook: {rescook.length}</h2>
+
+      {rescook.map((recook) => (
+        <Rescook_items recook={recook}></Rescook_items>
+      ))}
     </div>
   );
 };

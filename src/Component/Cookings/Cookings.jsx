@@ -1,8 +1,7 @@
 import { IoMdTime } from "react-icons/io";
 import { AiOutlineFire } from "react-icons/ai";
 
-const Cookings = ({ cook }) => {
-  console.log(cook);
+const Cookings = ({ cook, handleSlectCook }) => {
   const {
     recipe_image,
     recipe_id,
@@ -40,7 +39,10 @@ const Cookings = ({ cook }) => {
           </div>
         </div>
         <div className="mt-4">
-          <button className="bg-teal-500 p-2 rounded-xl text-black font-bold">
+          <button
+            onClick={() => handleSlectCook(cook)}
+            className="bg-teal-500 p-2 rounded-xl text-black font-bold"
+          >
             Want to cook
           </button>
         </div>
