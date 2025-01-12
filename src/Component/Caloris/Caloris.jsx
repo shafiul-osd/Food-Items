@@ -12,7 +12,7 @@ const Caloris = ({ handleSlectCook }) => {
   }, []);
 
   return (
-    <div className="grid grid-cols-2 gap-4 ">
+    <div className="  lg:grid grid-cols-2 gap-4 ">
       {caloris.map((cook) => (
         <Cookings
           cook={cook}

@@ -20,11 +20,11 @@ function App() {
         <Header></Header>
         <Banner></Banner>
         <Recipes></Recipes>
-        <div className="grid grid-cols-3  gap-10">
-          <div className="col-span-2">
+        <div className=" sm:grid  grid-cols-1  lg: grid grid-cols-3 gap-2  lg:gap-10">
+          <div className="col-span-1 lg:col-span-2">
             <Caloris handleSlectCook={handleSlectCook}></Caloris>
           </div>
-          <div className="col-span-1">
+          <div className="lg:col-span-1">
             <Want_cook rescook={rescook}></Want_cook>
           </div>
         </div>
