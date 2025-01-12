@@ -13,7 +13,7 @@ const Cookings = ({ cook }) => {
     calories,
   } = cook;
   return (
-    <div>
+    <div className="border-yellow-600 col-span-2">
       <div>
         <img className="w-80 mt-2" src={recipe_image} alt="" />
         <h2>{recipe_name}</h2>

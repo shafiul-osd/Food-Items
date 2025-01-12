@@ -13,9 +13,9 @@ function App() {
         <Header></Header>
         <Banner></Banner>
         <Recipes></Recipes>
-        <div className="grid grid-cols-3 gap-24">
-          <Caloris className="col-span-2 border border-red-800"></Caloris>
-          <Want_cook className="col-span-1"></Want_cook>
+        <div className="grid grid-cols-3  gap-24">
+          <Caloris className="col-span-2 "></Caloris>
+          <Want_cook className="col-span-1 "></Want_cook>
         </div>
       </div>
     </>

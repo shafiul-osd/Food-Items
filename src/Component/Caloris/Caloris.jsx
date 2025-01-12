@@ -12,7 +12,7 @@ const Caloris = () => {
   }, []);
 
   return (
-    <div className="grid grid-cols-2 gap-10">
+    <div className="">
       {caloris.map((cook) => (
         <Cookings cook={cook} key={caloris.id}></Cookings>
       ))}
