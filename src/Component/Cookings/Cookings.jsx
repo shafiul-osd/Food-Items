@@ -13,18 +13,20 @@ const Cookings = ({ cook }) => {
     calories,
   } = cook;
   return (
-    <div className="border-yellow-600 col-span-2">
-      <div>
-        <img className="w-80 mt-2" src={recipe_image} alt="" />
-        <h2>{recipe_name}</h2>
-        <p>{short_description}</p>
-
-        <p>indredient{ingredients.length}</p>
+    <div className="border border-slate-400 p-4 rounded-xl">
+      <div className="">
+        <img className="w-96 h-52 mt-2 rounded-lg" src={recipe_image} alt="" />
+        <h2 className="font-bold text-xl mt-4">{recipe_name}</h2>
+        <p className="text-neutral-700 text-base mt-5">{short_description}</p>
+        <div className="mt-5">
+          <hr />
+        </div>
+        <p className="mt-6 font-bold">indredient: {ingredients.length}</p>
         {ingredients.map((inm, inx) => (
-          <div key={inx}>{inm}</div>
+          <li key={inx}>{inm}</li>
         ))}
-        <div className="flex gap-2">
-          <div className="flex gap-2 items-center">
+        <div className="flex gap-6">
+          <div className="flex gap-1 items-center">
             <span>
               <IoMdTime></IoMdTime>
             </span>
@@ -34,10 +36,14 @@ const Cookings = ({ cook }) => {
             <span>
               <AiOutlineFire></AiOutlineFire>
             </span>
-            <p>{preparing_time}</p>
+            <p>{calories}</p>
           </div>
         </div>
-        <button className="bg-teal-500 p-2 rounded-xl">Want to cook</button>
+        <div className="mt-4">
+          <button className="bg-teal-500 p-2 rounded-xl text-black font-bold">
+            Want to cook
+          </button>
+        </div>
       </div>
     </div>
   );

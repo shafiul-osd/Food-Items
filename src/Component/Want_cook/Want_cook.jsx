@@ -1,7 +1,13 @@
 const Want_cook = () => {
   return (
-    <div className="col-span-1 border border-purple-800">
-      <h2>want to cook</h2>
+    <div className="border border-purple-800 px-4">
+      <h2 className="text-center">want to cook</h2>
+      <div className="flex justify-between ">
+        <p>Name:</p>
+        <p>Time</p>
+        <p>Caloris</p>
+      </div>
+      <button>prepraing</button>
     </div>
   );
 };
